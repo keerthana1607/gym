@@ -26,7 +26,7 @@ public class UserController {
 	public String insertUser(@RequestBody User user) {
 		String msg = "";
 		try {
-			System.out.println(user);
+			
 			service.addUser(user);
 			msg = "Success user";
 		} catch (Exception e) {
@@ -38,7 +38,7 @@ public class UserController {
 
 	@GetMapping("/getEmail/{email}")
 	public User viewUserByEmail(@PathVariable("email") String email) {
-		System.out.print(email);
+		
 		return service.getUserByEmail(email);
 	}
 

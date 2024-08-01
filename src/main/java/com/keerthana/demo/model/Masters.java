@@ -24,7 +24,7 @@ public class Masters {
 	
 	public Masters() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	public Masters(int masterID, String name, String specialist, String availability, String city) {
 		super();

@@ -10,7 +10,7 @@ import com.keerthana.demo.model.Members;
 
 @Repository
 public interface MembersRepo{
-//public interface AppRepo extends JpaRepository<Application, Integer>{
+
 
 	public void save(Members emp);
 

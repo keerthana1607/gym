@@ -26,7 +26,7 @@ public class Members {
 
 	public Members() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public Members(int userID, String username, String city, String email,
